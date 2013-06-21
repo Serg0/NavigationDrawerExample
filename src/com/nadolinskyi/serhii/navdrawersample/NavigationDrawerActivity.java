@@ -72,6 +72,7 @@ public class NavigationDrawerActivity extends Activity {
 	        };
 	        
 	        mDrawerLayout.setDrawerListener(mDrawerToggle);
+	        mDrawerToggle.setDrawerIndicatorEnabled(false);
 		 
 		 if (savedInstanceState == null) {
 	            selectItem(0);
@@ -162,8 +163,6 @@ public class NavigationDrawerActivity extends Activity {
         // Pass any configuration change to the drawer toggls
         mDrawerToggle.onConfigurationChanged(newConfig);
     }
-
-
 	
 
 }
