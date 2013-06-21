@@ -5,4 +5,13 @@
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
 
+    <string-array name="mock_array">
+        <item>TopLevel1</item>
+        <item>TopLevel2</item>
+        <item>TopLevel3</item>
+        <item>TopLevel4</item>
+        <item>TopLevel5</item>
+        
+    </string-array>
+    
 </resources>
